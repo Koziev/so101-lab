@@ -93,5 +93,8 @@ nav:
       - Autonomous manipulation: experiments/autonomous-manipulation.md
   - Blog:
       - blog/index.md
+  - Русский:
+      - Обзор: ru/index.md
+      - Сборка SO-101: ru/so101-assembly-guide.md
   - Resources:
       - Repository guide: resources/repository-guide.md
