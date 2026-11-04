@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "so101-sim"
+version = "0.8.0"
+description = "PyBullet simulator of the SO-101 arm for generating LeRobot grasping datasets (experiment v8)"
+requires-python = ">=3.12"
+dependencies = ["pybullet", "numpy", "opencv-python"]
+
+[tool.setuptools]
+package-dir = {"" = "simulator"}
+packages = ["so101_sim"]

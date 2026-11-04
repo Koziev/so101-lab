@@ -1,0 +1,7 @@
+assets_so101/
+data/
+datasets/
+outputs/
+check_*/
+__pycache__/
+*.egg-info/
