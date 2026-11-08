@@ -6,6 +6,8 @@ This repository combines the project website, engineering documentation, experim
 
 **Website:** https://koziev.github.io/so101-lab/ (available after GitHub Pages deployment)
 
+![SO-101 grasping demo](assets/exp10/so101_grasping_exp10.gif)
+
 ## What you'll find here
 
 - **Documentation** — assembly, 3D printing, electronics, setup, and calibration.
