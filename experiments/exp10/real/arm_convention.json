@@ -1,0 +1,5 @@
+{
+ "arm": "7.4 V follower, LeRobot id my_follower",
+ "note": "simulator angle = real angle + offset (deg). shoulder_pan: 6.5 measured physically + (-0.4) fitted; the others fitted on data_real_v2 (80 samples) and confirmed on data_real_v3 (74 new samples, median 1.9 cm).",
+ "offsets": {"shoulder_pan": 6.1, "shoulder_lift": 0.2, "elbow_flex": -4.0, "wrist_flex": -9.0, "wrist_roll": 0.0, "gripper": 0.0}
+}

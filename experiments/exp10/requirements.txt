@@ -1,0 +1,16 @@
+# Model environment (generation, training, evaluation, prediction server). Python 3.12.
+# torch built for your NVIDIA driver; for compiling causal-conv1d, nvcc must have the same CUDA major version.
+torch
+transformers>=5.0
+accelerate
+peft
+datasets
+pillow
+pybullet
+opencv-python
+numpy
+scipy                    # optional: evaluation/fit_offsets.py (falls back to a simple search without it)
+flash-linear-attention   # fast kernels for Qwen3.5's linear-attention layers
+causal-conv1d            # pip install causal-conv1d --no-build-isolation (compiles; see README)
+
+# Robot environment (real/, camera/): lerobot[feetech]==0.6.0, opencv-python, pybullet, datasets, numpy

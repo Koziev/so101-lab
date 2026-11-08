@@ -1,0 +1,8 @@
+assets_so101/
+data*/
+outputs/
+real_trials*/
+pose_frames*/
+*.png
+!simulator/textures/**/*.png
+__pycache__/
