@@ -27,6 +27,8 @@ The scene grew in steps alongside the experiments:
 - **v7:** a model of the real setup: a 50×49 cm plywood board on a desk, textures made from photographs of the actual board, desk and room, background clutter, and a stereo camera with the geometry of the real rectified USB stereo camera. Rendered images pass through a noise model fitted to the real camera (white balance, exposure, vignetting, blur, sensor noise, JPEG compression).
 - **v8–v9:** randomised stereo camera poses around the measured real camera, rejection of camera poses that cannot see the robot base, the gripper and the work area, and a model of the real 7.4 V servos: a direction-dependent dead band measured on the arm (shoulder and elbow stop 2–4.5° short against gravity) and a command delay of 0–2 control steps.
 
+![Key frame of a scripted grasp](../../assets/simulator/pybullet/grasp_close.webp)
+
 <video controls preload="metadata" style="width: 100%;">
   <source src="/so101-lab/assets/simulator/pybullet/grasp.mp4" type="video/mp4">
   Your browser does not support the video element.
