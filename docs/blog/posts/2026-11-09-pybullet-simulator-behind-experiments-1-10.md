@@ -28,7 +28,7 @@ The scene grew in steps alongside the experiments:
 - **v8–v9:** randomised stereo camera poses around the measured real camera, rejection of camera poses that cannot see the robot base, the gripper and the work area, and a model of the real 7.4 V servos: a direction-dependent dead band measured on the arm (shoulder and elbow stop 2–4.5° short against gravity) and a command delay of 0–2 control steps.
 
 <video controls preload="metadata" style="width: 100%;">
-  <source src="../../assets/simulator/pybullet/grasp.mp4" type="video/mp4">
+  <source src="/so101-lab/assets/simulator/pybullet/grasp.mp4" type="video/mp4">
   Your browser does not support the video element.
 </video>
 
