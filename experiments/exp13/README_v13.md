@@ -35,9 +35,10 @@ python evaluation/eval_approach.py --setup $SETUP \
 
 ## Datasets
 
-- [inkoziev/so101_approach_v13a](https://huggingface.co/datasets/inkoziev/so101_approach_v13a): training split
+- [inkoziev/so101_approach_v13a](https://huggingface.co/datasets/inkoziev/so101_approach_v13a): training split, with
+  `eval_seeds.json` (the held-out seeds)
 - [inkoziev/so101_approach_v13a_eval](https://huggingface.co/datasets/inkoziev/so101_approach_v13a_eval): held-out
-  episodes, with `eval_seeds.json`
+  episodes
 
 ## Qwen3.5-0.8B
 
