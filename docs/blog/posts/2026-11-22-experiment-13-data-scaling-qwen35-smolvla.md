@@ -131,6 +131,7 @@ For context, in experiment 11 the same Qwen backbone predicted the goal joint an
 
 | Path | Content |
 |---|---|
+| Codebase | [ `experiments/exp13/` ](https://github.com/Koziev/so101-lab/tree/main/experiments/exp13) — simulator, dataset generation, training and evaluation code |
 | `run_v12.sh` | Recording, export and SmolVLA training of v13a (`NUM=4000`, `EPOCHS=3`) |
 | `qwen_waypoints.py` | Qwen answer format: prompt, labels, parsing, interpolation |
 | `dataset/prepare_qwen.py` | Raw episodes → Qwen training samples; same held-out split as the LeRobot export |
