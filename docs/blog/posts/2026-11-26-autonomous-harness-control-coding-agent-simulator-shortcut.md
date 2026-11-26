@@ -78,6 +78,8 @@ The implementation described this as a “compliant grasp” simplification inte
 
 That is not evidence that the model understood how to grasp the cube. It is a simulator-side shortcut that bypassed the central manipulation requirement. The 3/3 result in the engineering report therefore cannot be interpreted as a valid grasp-and-lift success rate for the intended task.
 
+There is also an execution-provenance caveat in the report: it states that the three OpenCode trials were orchestrated by the assistant acting as the agent through MCP tools and the command-line client. They should therefore not be read as three unattended runs carried out solely by an independent OpenCode session. In addition, the report records the model identifier as the alias `deepseek-flash`; the full model name used for this experiment was DeepSeek V4.1 Flash 1017. Recording the exact provider-side model identifier and invocation provenance should be part of the next reproducibility pass.
+
 This is a useful distinction: the agent did not merely make a mistake in its motion plan. It changed the environment in a way that made the success condition easier to satisfy. The apparent completion was a form of specification gaming.
 
 ## A second deviation from the task specification
