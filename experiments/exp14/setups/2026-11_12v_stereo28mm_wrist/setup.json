@@ -1,0 +1,176 @@
+{
+  "name": "2026-11_12v_stereo28mm_wrist",
+  "created": "2026-11-12 08:16:24",
+  "description": "",
+  "arm_id": "my_follower_12v",
+  "cameras": {
+    "stereo": {
+      "usb": "1-5",
+      "mode": "2560x720 MJPG side by side"
+    },
+    "wrist": {
+      "usb": "1-13.3.1",
+      "mode": "1280x720 MJPG"
+    }
+  },
+  "files": [
+    "arm.json",
+    "stereo_background.png",
+    "stereo_background.png",
+    "stereo_background.png",
+    "stereo_background.png",
+    "stereo_background.png"
+  ],
+  "history": [
+    {
+      "time": "2026-11-12 08:23:49",
+      "file": "workspace.json",
+      "note": "workspace taught by hand (826 poses)"
+    },
+    {
+      "time": "2026-11-12 08:31:18",
+      "file": "workspace.json",
+      "note": "workspace taught by hand (1325 poses)"
+    },
+    {
+      "time": "2026-11-12 15:59:48",
+      "file": "wrist_mount.json",
+      "note": "automated calibration"
+    },
+    {
+      "time": "2026-11-12 15:59:48",
+      "file": "stereo_calib.json",
+      "note": "stereo pose from the automated calibration"
+    },
+    {
+      "time": "2026-11-12 15:59:48",
+      "file": "arm.json",
+      "note": "joint offsets from the automated calibration"
+    },
+    {
+      "time": "2026-11-12 16:16:58",
+      "file": "wrist_mount.json",
+      "note": "automated calibration"
+    },
+    {
+      "time": "2026-11-12 16:16:58",
+      "file": "stereo_calib.json",
+      "note": "stereo pose from the automated calibration"
+    },
+    {
+      "time": "2026-11-12 16:16:58",
+      "file": "arm.json",
+      "note": "joint offsets from the automated calibration"
+    },
+    {
+      "time": "2026-11-12 20:42:14",
+      "file": "wrist_mount.json",
+      "note": "automated calibration"
+    },
+    {
+      "time": "2026-11-12 20:42:14",
+      "file": "stereo_calib.json",
+      "note": "stereo pose from the automated calibration"
+    },
+    {
+      "time": "2026-11-12 20:42:14",
+      "file": "arm.json",
+      "note": "joint offsets from the automated calibration"
+    },
+    {
+      "time": "2026-11-12 21:01:45",
+      "file": "wrist_calib.json",
+      "note": "wrist intrinsics from the automated calibration"
+    },
+    {
+      "time": "2026-11-12 21:02:03",
+      "file": "wrist_mount.json",
+      "note": "automated calibration"
+    },
+    {
+      "time": "2026-11-12 21:02:03",
+      "file": "stereo_calib.json",
+      "note": "stereo pose from the automated calibration"
+    },
+    {
+      "time": "2026-11-12 21:02:03",
+      "file": "arm.json",
+      "note": "joint offsets from the automated calibration"
+    },
+    {
+      "time": "2026-11-12 21:02:47",
+      "file": "wrist_calib.json",
+      "note": "wrist intrinsics from the automated calibration"
+    },
+    {
+      "time": "2026-11-12 21:03:06",
+      "file": "wrist_mount.json",
+      "note": "automated calibration"
+    },
+    {
+      "time": "2026-11-12 21:03:06",
+      "file": "stereo_calib.json",
+      "note": "stereo pose from the automated calibration"
+    },
+    {
+      "time": "2026-11-12 21:03:06",
+      "file": "arm.json",
+      "note": "joint offsets from the automated calibration"
+    },
+    {
+      "time": "2026-11-12 22:03:26",
+      "file": "setup.json",
+      "note": "stereo background from 9 frames (median)"
+    },
+    {
+      "time": "2026-11-13 07:05:54",
+      "file": "setup.json",
+      "note": "stereo background from 9 frames (median)"
+    },
+    {
+      "time": "2026-11-13 07:08:54",
+      "file": "setup.json",
+      "note": "stereo background from 9 frames (median)"
+    },
+    {
+      "time": "2026-11-13 18:09:27",
+      "file": "workspace.json",
+      "note": "workspace taught by hand (2825 poses)"
+    },
+    {
+      "time": "2026-11-14 08:54:10",
+      "file": "stereo_calib.json",
+      "note": "stereo pose from the gripper-object fit (board-based kept as pose_base_board)"
+    },
+    {
+      "time": "2026-11-14 08:54:10",
+      "file": "arm.json",
+      "note": "joint offsets from the gripper-object fit"
+    },
+    {
+      "time": "2026-11-14 21:30:49",
+      "file": "stereo_calib.json",
+      "note": "stereo pose from the gripper-object fit (board-based kept as pose_base_board)"
+    },
+    {
+      "time": "2026-11-14 21:30:49",
+      "file": "arm.json",
+      "note": "joint offsets from the gripper-object fit"
+    },
+    {
+      "time": "2026-11-14 21:34:27",
+      "file": "setup.json",
+      "note": "stereo background from 9 frames (median)"
+    },
+    {
+      "time": "2026-11-14 21:48:13",
+      "file": "table.json",
+      "note": "board height probed with torque on (real/probe_table.py)"
+    },
+    {
+      "time": "2026-11-14 22:08:48",
+      "file": "setup.json",
+      "note": "stereo background from 15 frames (median)"
+    }
+  ]
+}

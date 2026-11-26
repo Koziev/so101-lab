@@ -1,0 +1,24 @@
+{
+  "arm_id": "my_follower_12v",
+  "convention": "simulator angle = real reading + offset (deg)",
+  "signs": {
+    "shoulder_pan": 1,
+    "shoulder_lift": 1,
+    "elbow_flex": 1,
+    "wrist_flex": 1,
+    "wrist_roll": 1,
+    "gripper": 1
+  },
+  "offsets": {
+    "shoulder_pan": 0.0,
+    "shoulder_lift": 0.42,
+    "elbow_flex": -6.59,
+    "wrist_flex": -1.07,
+    "wrist_roll": 0.0,
+    "gripper": 0.0
+  },
+  "notes": {
+    "shoulder_pan": "physical check (pointing along the board's centre line): +0.0",
+    "fitted": "lift/elbow/wrist_flex fitted in session 20261112_202755"
+  }
+}
